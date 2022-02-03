@@ -80,14 +80,22 @@ a {
     padding-left: 25px;  
 }
 
+.bottom-footer { 
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 10px;
+}
+
 .footer-left { 
-    float: left; 
+    flex: 1 1 auto;
+    text-align: left;
+    margin: 5px;
 }
 
 .footer-right { 
-    float: right; 
-}
-
-table {
-    border-spacing: 50px; 
+    flex: 1 1 auto;
+    text-align: right;
+    margin: 5px;
 }
